@@ -17,12 +17,13 @@ function contactSeller() {
   );
 
   // 改成卖家的 WhatsApp 号码
-  const phone = "01128208828";
+  const phone = "+601128208828";
 
   window.open(
     `https://wa.me/${phone}?text=${message}`,
     "_blank"
   );
 }
+
 
 
